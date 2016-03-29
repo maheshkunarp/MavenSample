@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" tests="1">
+<testcase classname="This is my dummy feature file" name="This is my first dummy step" time="22.762022">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at com.cucumber.MavenCucumberPrototype.StepDefinitions.this_is_third_step(StepDefinitions.java:57)&#13;&#10;&#9;at ✽.Then then &quot;unit&quot; are displayed(myFeature.feature:7)&#13;&#10;"><![CDATA[Given Login to Flipart...........................................................passed
+When Search "unit" item...........................................................passed
+Then then "unit" are displayed.......................................................failed
+And Page is closed.............................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.cucumber.MavenCucumberPrototype.StepDefinitions.this_is_third_step(StepDefinitions.java:57)
+	at ✽.Then then "unit" are displayed(myFeature.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
